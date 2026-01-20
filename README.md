@@ -2,7 +2,7 @@
 
 # James Cumming-Bart –  Portfolio
 
-I am a Junior Backend Engineer with a Computer Science BSc (2:1) and I have  strong interest in building reliable, well-structured systems.  
+I am a Junior Backend Engineer with a Computer Science BSc (2:1) and I have strong interest in making well-structured systems.  
 I enjoy working on backend services abddd cross-platform tools that solve real problems.
 
 I have over 10 years of experience delivering technical telecom projects in production environments, and I have skills with modern software engineering practices using Go, Python, SQL, and REST APIs.
@@ -31,11 +31,10 @@ A revision flashcard system designed around a clean backend service and simple f
 
 **Highlights:**
 - Designed and implemented a backend service in Go
-- Domain-driven structure for flashcards, progress tracking and offline workflows
+- Created a Domain-driven structure for flashcards, as well as to track progress
 - Lightweight HTML frontend
-- Focus on maintainability, clarity, and UI feedback
+- Focuses on maintainability, clarity, and UI feedback
 - Built with portability and long-term maintainability in mind
-- Version controlled using Git, with testing across different operating systems
 
 Features:
 - Backend service design
@@ -58,7 +57,7 @@ mpv saves progress based on file paths, meaning:
 
 **Solution:**
 - Progress is identified using file **size + duration**
-- Stored using hashed identifiers for privacy
+- Stored using hashed data for privacy
 - Works on:
   - Linux
   - Windows
@@ -79,13 +78,38 @@ Features:
 
 ---
 
+### 📂 File-Processing-Pipeline – A file processing backend written in Go (WIP)
+**Go,Data Management, Productivity**  
+[https://github.com/jstriker87/mpv-progress-sync-cross-platform ](https://github.com/jstriker87/File-Processing-Pipeline) 
+
+A backeend designed for storing files along with descriptions, which can be used .
+
+**Problem:**
+Sometimes wheen you have an important file, it takes time to search for it in the future
+- There is no additional metadata to search for a document, other than knowiong certain keywords in the file
+
+**Solution:**
+- The backend system exposes two enmpoints currently (although this will incrase in the future)
+  - /status - This shows a basic list of the files in the 'uploads' folder within the backend (you can also change the folder location)
+  - /upload - This allows you to upload a file of up to a certain size (users can set the maximum file size).
+      - Currently this is a work in progress, so you can only upload files.
+        - The second stage (in progress) involves implemeting a process that will allow the user include a description with the file. This will be stored as a hidden json file along with the file in its own sub-folder in the main 'uploads' folder.
+        - The third stage will be to provide a search endpoint to allow you to search the file description, as well as the file contents (dependant n the file type)
+
+**Highlights:**
+- Solves a context and understanding problem
+- Allows you to search and find files using your own reference information / metadata
+- Designeed to be self hosted.
+- Can be implemented to any program, page or script that can send POST / GET requests
+
+---
+
 ## 🧠 About Me
 
 Before completing my Computer Science degree, I spent over a decade working in telecoms provisioning, technical coordination, and infrastructure projects.  
 That background gave me:
 
 - A strong production mindset  
-- Reliability and fault isolation thinking  
 - Clear communication and documentation habits  
 - Comfort working in complex technical environments  
 

@@ -25,7 +25,7 @@ GitHub: https://github.com/jstriker87
 
 ### 🗂 Flashcards – Revision Browser App  
 **Go, HTML, Backend Architecture**  
-https://github.com/jstriker87/Go-Flashcards  
+[https://github.com/jstriker87/Go-Flashcards](https://github.com/jstriker87/Go-Flashcards)
 
 A revision flashcard system designed around a clean backend service and simple frontend.
 
@@ -46,7 +46,7 @@ Features:
 
 ### 🎬 mpv Progress Sync – Cross-Platform Media Progress Sync  
 **Lua, Cross-Platform Scripting, Systems Design**  
-https://github.com/jstriker87/mpv-progress-sync-cross-platform  
+[https://github.com/jstriker87/mpv-progress-sync-cross-platform](https://github.com/jstriker87/mpv-progress-sync-cross-platform)
 
 A cross-platform script that synchronises video playback progress across devices for mpv and mpv-android.
 

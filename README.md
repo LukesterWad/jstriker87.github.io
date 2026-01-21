@@ -82,24 +82,24 @@ Features:
 **Go,Data Management, Productivity**  
 [https://github.com/jstriker87/File-Processing-Pipeline](https://github.com/jstriker87/File-Processing-Pipeline)
 
-A backeend designed for storing files along with descriptions, which can be used .
+A backend designed for storing files along with descriptions, which can be used .
 
 **Problem:**
-Sometimes wheen you have an important file, it takes time to search for it in the future
+Sometimes when you have an important file, it takes time to search for it in the future
 - There is no additional metadata to search for a document, other than knowiong certain keywords in the file
 
 **Solution:**
-- The backend system exposes two enmpoints currently (although this will incrase in the future)
+- The backend system exposes two endpoints currently (although this will increase in the future)
   - /status - This shows a basic list of the files in the 'uploads' folder within the backend (you can also change the folder location)
   - /upload - This allows you to upload a file of up to a certain size (users can set the maximum file size).
       - Currently this is a work in progress, so you can only upload files.
-        - The second stage (in progress) involves implemeting a process that will allow the user include a description with the file. This will be stored as a hidden json file along with the file in its own sub-folder in the main 'uploads' folder.
-        - The third stage will be to provide a search endpoint to allow you to search the file description, as well as the file contents (dependant n the file type)
+        - The second stage (in progress) involves implementing a process that will allow the user include a description with the file. This will be stored as a hidden json file along with the file in its own sub-folder in the main 'uploads' folder.
+        - The third stage will be to provide a search endpoint to allow you to search the file description, as well as the file contents (dependent n the file type)
 
 **Highlights:**
 - Solves a context and understanding problem
 - Allows you to search and find files using your own reference information / metadata
-- Designeed to be self hosted.
+- Designed to be self hosted.
 - Can be implemented to any program, page or script that can send POST / GET requests
 
 ---
